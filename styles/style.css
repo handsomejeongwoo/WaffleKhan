@@ -88,3 +88,24 @@ a {
   cursor: pointer;
   right: 110px;
 }
+.special-wafflekhan {
+  text-align: center;
+  padding: 100px 0;
+}
+.special-wafflekhan > h2 {
+  font-family: "LINESeedKR-Bd";
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.wrap-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrap-img div {
+  padding-left: 40px;
+}
+.wrap-img div p {
+  color: #454545;
+}
