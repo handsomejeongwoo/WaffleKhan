@@ -46,9 +46,11 @@ a {
   display: none;
   position: absolute;
   font-size: 14px;
+  background-color: #fff;
 }
 #menu > ul:hover > li > ul {
   display: block;
+  z-index: 9999999;
 }
 #menu > ul > li > ul > li:hover {
   background-color: red;
@@ -62,4 +64,27 @@ a {
 .nav-dropdown {
   border: 1px solid #ccc;
   border-bottom: none;
+}
+.imgbox {
+  position: relative;
+}
+.boximg {
+  width: 100%;
+}
+#dlwjddn {
+  font-size: 100px;
+}
+.boximg-arrow-left {
+  position: absolute;
+  top: 40%;
+  translate: (0, -40%);
+  left: 110px;
+  cursor: pointer;
+}
+.boximg-arrow-right {
+  position: absolute;
+  top: 40%;
+  translate: (0, -40%);
+  cursor: pointer;
+  right: 110px;
 }
