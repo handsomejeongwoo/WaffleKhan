@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.contain {
+  padding: 23px 0 16px 0;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+#menu {
+  font: bold 16px "malgun gothic";
+  width: 1200px;
+  height: 60px;
+  background: #fff;
+  color: black;
+  margin: 0 auto;
+  line-height: 60px;
+  text-align: center;
+}
+
+#menu > ul > li {
+  float: left;
+  width: 240px;
+  position: relative;
+}
+#menu > ul > li > ul {
+  width: 240px;
+  display: none;
+  position: absolute;
+  font-size: 14px;
+}
+#menu > ul:hover > li > ul {
+  display: block;
+}
+#menu > ul > li > ul > li:hover {
+  background-color: red;
+}
+#menu > ul > li > ul > li {
+}
+#menu > ul > li > a {
+  font-size: 20px;
+  font-family: "LINESeedKR-Bd";
+}
+.nav-dropdown {
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
